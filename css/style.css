@@ -22,7 +22,7 @@
 }
 
 
-/* COLORS */
+/* COLORS & general style */
 
 body{
     width: 375px;
@@ -38,4 +38,7 @@ anything{
 	background-color: #C4D0D9; /* lines/separators, icon, background, details text */
 	color: #FF8181; /* button, checkboxes, selected icons */
 	color: #161719; /* Accent color */
+
+	font-family: 'proxima_nova_rgbold', Helvetica, Arial, sans-serif; 
+	/* use it for bold weight of font */
 }
