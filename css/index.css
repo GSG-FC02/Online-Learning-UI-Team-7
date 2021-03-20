@@ -109,6 +109,9 @@ body {
 .buttonContainer .Bone {
   background-color: #6360ff;
 }
+.buttonContainer .Bone a {
+  text-decoration: none;
+}
 .buttonContainer .Btwo {
   background-color: #ff8181;
 }
