@@ -13,9 +13,10 @@ header{
     width: 100%;
     align-items: center;
     justify-content: space-around;
+    
 }
 .shoppingCart {
-    height: 60px;
+    height: 70px;
     width: 70px;
     margin-left: 100px;
 }
@@ -40,6 +41,7 @@ div .second{
     flex-direction: row;
     justify-content: flex-start;
 }
+
 .explore{
     font-size: 50px;
     color: white;
@@ -101,18 +103,18 @@ ul{
     font-size: 41px;
     margin-top: 15px;
 }
-.star{
+.test{
     display: flex;
     flex-direction: row;
     justify-content: start;
     align-items: center;
     font-size: 40px;
 }
-.star img{
+.test img{
     width: 40px;
     height: 40px;
 }
-.star ul li{
+.test ul li{
     display: inline-block;
     margin-bottom: 20px;
     margin-left: 10px;
