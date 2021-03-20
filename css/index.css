@@ -1,21 +1,11 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
 /* body  */
 body {
   width: 375px;
   height: 812px;
   background-color: #6360ff; /* primary color */
-  /* font-family: "DM Sans"; */
   margin: auto;
 }
 
-/* main */
-.main {
-  margin: auto;
-}
 /* header */
 .header {
   height: 386px;
@@ -41,7 +31,7 @@ body {
   width: 143px;
   height: 33px;
   text-align: center;
-  font-size: 20px;
+  font-size: 50px;
   padding-top: 28px;
   top: 212px;
   left: 116px;
@@ -53,7 +43,7 @@ body {
   height: 21px;
   font-size: 16px;
   text-align: center;
-  padding-top: 21px;
+  padding-top: 66px;
   line-height: 20.83px;
   left: 59px;
   top: 274px;
@@ -67,6 +57,10 @@ body {
   background-color: #f1f1fa;
   top: 386px;
   left: 376px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  padding-top: 43px;
 }
 
 /* inputs */
@@ -77,43 +71,50 @@ body {
   width: 100%;
   margin-bottom: 20px;
 }
-.icon {
+/* #inputContainer {
+  padding-top: 43px;
+} */
+.inputContainer .icon {
   padding: 15px;
   min-width: 10px;
   font-size: 18px;
   color: blue;
 }
-.input-field {
+.inputContainer .input-field {
   width: 325px;
   height: 50px;
   padding: 15px;
   padding-left: 40px;
   border-radius: 10px;
+  border: none;
+  outline: none;
 }
 
 /* buttons */
-.button {
+
+.buttonContainer {
+  margin-top: 23px;
+  margin: auto;
+}
+
+.buttonContainer .button {
   width: 325px;
   height: 48px;
   margin-top: 15px;
   color: #ffffff;
   border-radius: 10px;
+  border: none;
+  outline: none;
 }
-.buttonContainer {
-  margin-top: 23px;
-  margin: auto;
-}
-.Bone {
+.buttonContainer .Bone {
   background-color: #6360ff;
 }
-.Btwo {
+.buttonContainer .Btwo {
   background-color: #ff8181;
 }
 
-#inputContainer {
-  padding-top: 43px;
-}
 .para1 {
   margin-top: 56px;
   color: #1617196b;
+  font-size: 12px;
 }
