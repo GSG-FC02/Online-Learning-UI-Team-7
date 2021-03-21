@@ -44,7 +44,7 @@
 
 /* start settings & support style */
 .settings-support {
-  background-color: #fbfbfb;
+  background-color: #FCFCFF;
   height: 500px;
   border-radius: 30px;
   padding: 30px;
@@ -70,3 +70,26 @@
   margin-bottom: 50px;
 }
 /* end settings & support style */
+
+/* navbar */
+nav {
+    background-color: white;
+    height: 71px;
+    margin-top: -164px;
+    padding: 10px 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 50px 50px 0 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  }
+  nav img {
+    width: 25px;
+    height: 25px;
+  }
+
+nav a:hover {
+    color: #ff8181;
+}
