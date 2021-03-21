@@ -15,7 +15,6 @@
       src="https://kit.fontawesome.com/4460c846a7.js"
       crossorigin="anonymous"
     ></script>
-    
   </head>
   <body>
     <main>
@@ -48,14 +47,14 @@
       <div class="cardprogress">
         <div class="currentprogress">
           <img src="../assets/images/Icon.png" alt="" />
-          <div>
+          <div class="para-currentprogress">
             <p class="para1">Current Progress</p>
             <p><b>50%</b></p>
           </div>
         </div>
         <div class="currentprogress">
           <img src="../assets/images/Icon.png" alt="" />
-          <div>
+          <div class="para-currentprogress">
             <p class="para1">Current Progress</p>
             <p><b>50%</b></p>
           </div>
@@ -136,11 +135,25 @@
       </div>
     </section>
     <!-- navbar -->
+
     <nav>
-      <i><a href="../html/home.html" class="fas fa-home icon-home"></a></i>
-      <i><a href="../html/explore.html" class="fas fa-search icon-nav"></a></i>
-      <i><a href="../html/" class="fa fa-play-circle-o icon-nav"></a></i>
-      <i><a href="../html/account.html" class="far fa-user-circle icon-nav"></a></i>
+      <div class="tooltip">
+        <i><a href="../html/home.html" class="fas fa-home icon-home"></a></i><span class="tooltip-text">Home</span>
+      </div>
+      <div class="tooltip">
+        <i
+          ><a href="../html/explore.html" class="fas fa-search icon-nav"></a
+        ></i><span class="tooltip-text">Explore</span>
+      </div>
+      <div class="tooltip">
+        <i><a href="../html/" class="fa fa-play-circle-o icon-nav"></a></i><span class="tooltip-text">Course</span>
+      </div>
+      <div class="tooltip">
+        <i><a
+            href="../html/account.html"
+            class="far fa-user-circle icon-nav"
+          ></a></i><span class="tooltip-text">account</span>
+      </div>
     </nav>
   </body>
 </html>
