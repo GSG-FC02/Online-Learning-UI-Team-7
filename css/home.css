@@ -177,7 +177,17 @@ nav {
   align-items: center;
   border-radius: 50px;
 }
-nav img {
-  width: 30px;
-  height: 30px;
+nav .icon-nav {
+  font-size: 23px;
+}
+nav i a {
+  text-decoration: none;
+  color: #161719;
+}
+nav .icon-home {
+  font-size: 26px;
+  color: #ff8181;
+}
+a:hover {
+  color: #ff8181;
 }
