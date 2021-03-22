@@ -1,60 +1,82 @@
 /* start menu navigation style */
 .menu-navigation {
-    height: 40px;
-    padding: 10px 25px;
-    display: flex;
-    font-size: 14px;
-    width: 100%;
-    margin-top: 20px;
-  }
-  
-  .menu-vector {
-    padding-right: 20px;
-  }
-  
-  .title-navigation {
-    padding-top: 3px;
-  }
-  /* end menu navigation style */
+  height: 40px;
+  padding: 10px 25px;
+  display: flex;
+  font-size: 14px;
+  width: 100%;
+  margin-top: 20px;
+}
 
-  /* start course sections style */
-  .course-sections {
-      display: flex;
-      justify-content: space-between;
-      align-content: stretch;
-  }
+.menu-vector {
+  padding-right: 20px;
+}
 
-  .course-sections button {
-      width: 50%;
-      background-color: #FCFCFF;
-      color: #91919f;
-      border: none;
-      outline: none;
-      padding: 20px;
-  }
+.title-navigation {
+  padding-top: 3px;
+}
+/* end menu navigation style */
 
-  .course-content {
-      background-color: white;
-      color: black;
-      padding: 20px;
-  }
+/* start course sections style */
+.course-sections {
+  display: flex;
+  justify-content: space-between;
+  align-content: stretch;
+  margin-top: -5px;
+}
 
-  .section-details {
-      color: #91919f;
-      font-size: 10px;
-      width: 90px;
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-  }
+.course-sections a {
+    width: 50%;
+}
+.course-sections button {
+  width: 100%;
+  background-color: #fcfcff;
+  color: #91919f;
+  border: none;
+  outline: none;
+  padding: 20px;
+}
 
-  span{
-      color: #91919f;
-      font-weight: bold;
-      font-size: 25px;
-  }
+.course-content {
+  background-color: white;
+  color: black;
+  padding: 20px;
+}
 
-  hr {
-      width: 100%;
-    margin: 0;
-    }
+.section-details {
+  color: #91919f;
+  font-size: 10px;
+  width: 90px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+span {
+  color: #91919f;
+  font-weight: bold;
+  font-size: 25px;
+}
+
+hr {
+  width: 100%;
+  margin: 0;
+}
+
+.Content-details ul li {
+  color: #161719;
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+  font-size: 14px;
+  margin-block: 20px;
+}
+
+ .more {
+    width: 70px;
+}
+
+.Content-details input[type="checkbox"]#inroduction1:checked + span{
+    background-color: #ff8181;
+    color: #ff8181;
+}
