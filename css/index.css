@@ -53,7 +53,7 @@ body {
 .form {
   height: 426px;
   text-align: center;
-  border-radius: 30px 30px 30px 30px;
+  border-radius: 30px 30px 0 0;
   background-color: #f1f1fa;
   top: 386px;
   left: 376px;
