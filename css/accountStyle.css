@@ -1,0 +1,129 @@
+/* start menu navigation style */
+.menu-navigation {
+  height: 40px;
+  padding: 10px 25px;
+  display: flex;
+  font-size: 14px;
+  width: 100%;
+  margin-top: 20px;
+}
+
+.menu-vector {
+  padding-right: 20px;
+}
+
+.title-navigation {
+  padding-top: 3px;
+}
+/* end menu navigation style */
+
+/* start profile info style */
+.profile-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  margin: 30px 0;
+  height: 210px;
+  width: 100%;
+}
+
+.profile-info img {
+  size: 100px;
+  margin-bottom: 30px;
+}
+
+.profile-info h2 {
+  font-size: 26px;
+}
+
+.profile-info p {
+  font-size: 14px;
+}
+/* end profile info style */
+
+/* start settings & support style */
+.settings-support {
+  background-color: #F8F8FB;
+  height: 500px;
+  border-radius: 30px;
+  padding: 30px;
+  width: 375px;
+}
+
+.settings-support .section-title {
+  color: #91919f;
+  font-size: 10px;
+}
+
+.settings-support ul li {
+  color: #161719;
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+  font-size: 14px;
+  margin-block: 20px;
+}
+
+.settings,
+.support {
+  margin-bottom: 50px;
+}
+/* end settings & support style */
+
+/* start nav-bar style */
+nav {
+    background-color: white;
+    height: 71px;
+    margin-top: -164px;
+    padding: 10px 53px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 50px 50px 0 0;
+    position: fixed;
+    bottom: 0;
+    width: 375px;
+  }
+  nav .icon-nav {
+    font-size: 23px;
+  }
+  nav i a {
+    text-decoration: none;
+    color: #161719;
+  }
+  nav .icon-account {
+    font-size: 26px;
+    color: #ff8181;
+  }
+  a:hover{
+    color: #ff8181;
+  }
+  .tooltip {
+    position: relative;
+    display: inline-block;
+  }
+  .tooltip .tooltip-text {
+    visibility: hidden;
+    width: 60px;
+    color: #ff8181;
+    text-align: center;
+    border-radius: 6px;
+    padding-top: 10px;
+    /* position */
+    position: absolute;
+    z-index: 1;
+    top: 100%;
+    left: 50%;
+    margin-left: -30px;
+    font-size: 12px;
+    line-height: 4px;
+  }
+  
+  .tooltip .text-account {
+    visibility: visible;
+  }
+  .tooltip:hover .tooltip-text {
+    visibility: visible;
+  }
+  /* end nav-bar style */
