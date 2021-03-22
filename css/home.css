@@ -153,7 +153,6 @@ body {
   height: 15px;
 }
 .ratinglist {
-  list-style-image: url(../assets/images/Separator.png);
   display: flex;
   flex-direction: row;
   justify-content: space-around;
