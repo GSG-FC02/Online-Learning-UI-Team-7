@@ -1,158 +1,158 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
-body{
-    background-color: #6360FF;
+body {
+  background-color: #6360ff;
 }
-header{
-    width: 100%;
-    margin-top: 50px;
-    padding-top: 3%;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    flex-direction: row;
+header {
+  width: 100%;
+  margin-top: 50px;
+  padding-top: 3%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: row;
 }
-header img{
-    width: 70px;
-    height: 70px;
+header img {
+  width: 70px;
+  height: 70px;
 }
-header h2{
-    margin-right: 15%;
+header h2 {
+  margin-right: 15%;
 }
-.myCourses{
-    font-size: 50px;
-    color: white;
-    margin-left: 10%;
+.myCourses {
+  font-size: 50px;
+  color: white;
+  margin-left: 10%;
 }
-.container{
-    margin-top: 40px;
-    width: 100%;
-    height: 100%;
-    background-color: #F1F1FA;
-    border-radius: 80px 80px 0 0 ;
-    padding-bottom: 67%;
+.container {
+  margin-top: 40px;
+  width: 100%;
+  height: 100%;
+  background-color: #f1f1fa;
+  border-radius: 80px 80px 0 0;
+  padding-bottom: 67%;
 }
-.title{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: center;
-    padding:40px 0;
-    margin-top: 5%;
+.title {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  padding: 40px 0;
+  margin-top: 5%;
 }
-.title h3{
-    font-size: 50px;
-    margin-top: 5%;
+.title h3 {
+  font-size: 50px;
+  margin-top: 5%;
 }
-.recommendedContainer{
-    width: 90%;
-    display: flex;
-    justify-content: start;
-    align-items: flex-start;
-    flex-direction: column;
-    padding: 0 0 0 0px;
-    margin-left: 35px;
+.recommendedContainer {
+  width: 90%;
+  display: flex;
+  justify-content: start;
+  align-items: flex-start;
+  flex-direction: column;
+  padding: 0 0 0 0px;
+  margin-left: 35px;
 }
-.recommendedDiv{
-    display: flex;
-    flex-direction: column;
+.recommendedDiv {
+  display: flex;
+  flex-direction: column;
 }
-.imageDiv{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: flex-start;
-    font-size: 41px;
-    margin-top: 15px;
+.imageDiv {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  font-size: 41px;
+  margin-top: 15px;
 }
-.test{
-    display: flex;
-    flex-direction: row;
-    justify-content: start;
-    align-items: center;
-    font-size: 40px;
+.test {
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  align-items: center;
+  font-size: 40px;
 }
-.test img{
-    width: 40px;
-    height: 40px;
+.test img {
+  width: 40px;
+  height: 40px;
 }
-.test ul li{
-    display: inline-block;
-    margin-bottom: 20px;
-    margin-left: 10px;
+.test ul li {
+  display: inline-block;
+  margin-bottom: 20px;
+  margin-left: 10px;
 }
-.Big{
-    width: 100%;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    padding: 30px 30px;
-    background-color: white;
-    border-radius: 50px;
-    margin-top: 50px;
+.Big {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 30px 30px;
+  background-color: white;
+  border-radius: 50px;
+  margin-top: 50px;
 }
-.Big .card{
-    width: 200px;
-    height: 250px;
-    margin-right: 15px;
+.Big .card {
+  width: 200px;
+  height: 250px;
+  margin-right: 15px;
 }
-.bySarah{
-    color: rgba(0,0,0, .479);
- }
- .done{
-    color: rgba(0,0,0, .479);
- }
+.bySarah {
+  color: rgba(0, 0, 0, 0.479);
+}
+.done {
+  color: rgba(0, 0, 0, 0.479);
+}
 /* .... NAV BAR STYLy START..........*/
 nav {
-    background-color: white;
-    height: 200px;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    border-radius: 50px;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-  }
-  nav .icon-nav {
-    font-size: 50px;
-  }
-  nav i a {
-    text-decoration: none;
-    color: #161719;
-  }
-  nav .icon-search {
-    font-size: 65px;
-    color: #ff8181;
-  }
-  a:hover {
-    color: #ff8181;
-  }
-  .tooltip {
-    position: relative;
-    display: inline-block;
-  }
-  .tooltip .tooltip-text {
-    visibility: hidden;
-    width: 60px;
-    color: #ff8181;
-    text-align: center;
-    border-radius: 6px;
-    padding: 5px 0;
-    /* position */
-    position: absolute;
-    z-index: 1;
-    top: 100%;
-    left: 50%;
-    margin-left: -60px;
-    font-size: 13px;
-    line-height: 4px;
-  }
-  
-  .tooltip:hover .tooltip-text {
-    visibility: visible;
-  }
+  background-color: white;
+  height: 200px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border-radius: 50px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+nav .icon-nav {
+  font-size: 50px;
+}
+nav i a {
+  text-decoration: none;
+  color: #161719;
+}
+nav .icon-search {
+  font-size: 65px;
+  color: #ff8181;
+}
+a:hover {
+  color: #ff8181;
+}
+.tooltip {
+  position: relative;
+  display: inline-block;
+}
+.tooltip .tooltip-text {
+  visibility: hidden;
+  width: 60px;
+  color: #ff8181;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  /* position */
+  position: absolute;
+  z-index: 1;
+  top: 100%;
+  left: 50%;
+  margin-left: -30px;
+  font-size: 15px;
+  line-height: 4px;
+}
+
+.tooltip:hover .tooltip-text {
+  visibility: visible;
+}
