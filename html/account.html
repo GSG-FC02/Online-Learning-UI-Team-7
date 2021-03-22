@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="../css/style.css" />
     <link rel="stylesheet" href="../css/accountStyle.css" />
+    <script src="https://kit.fontawesome.com/da6da1fff8.js" crossorigin="anonymous"></script>
     <title>Account</title>
   </head>
 
@@ -83,12 +84,26 @@
     </div>
     <!-- end settings & support -->
 
-    <!-- navbar -->
+    <!-- start nav-bar -->
     <nav>
-        <a href="home.html"> <img src="../assets/icons/home.png" /> </a>
-        <a href="explore.html"> <img src="../assets/icons/search.png" /> </a>
-        <a href="courses.html"> <img src="../assets/icons/play-circle.png" /> </a>
-        <a href="account.html"> <img src="../assets/icons/user.png" /> </a>
-    </nav>
+        <div class="tooltip">
+          <i><a href="../html/home.html" class="fas fa-home icon-nav"></a></i><span class="tooltip-text">Home</span>
+        </div>
+        <div class="tooltip">
+          <i
+            ><a href="../html/explore.html" class="fas fa-search icon-nav"></a
+          ></i><span class="tooltip-text">Explore</span>
+        </div>
+        <div class="tooltip">
+          <i><a href="../html/courses.html" class="fa fa-play-circle-o icon-nav"></a></i><span class="tooltip-text">Courses</span>
+        </div>
+        <div class="tooltip">
+          <i><a
+              href="../html/account.html"
+              class="far fa-user-circle icon-account"
+            ></a></i><span class="tooltip-text text-account">Account</span>
+        </div>
+      </nav>
+      <!-- end nav-bar -->
   </body>
 </html>
