@@ -44,11 +44,11 @@
 
 /* start settings & support style */
 .settings-support {
-  background-color: #FCFCFF;
+  background-color: #F8F8FB;
   height: 500px;
   border-radius: 30px;
   padding: 30px;
-  width: 376px;
+  width: 375px;
 }
 
 .settings-support .section-title {
@@ -71,25 +71,59 @@
 }
 /* end settings & support style */
 
-/* navbar */
+/* start nav-bar style */
 nav {
     background-color: white;
     height: 71px;
     margin-top: -164px;
-    padding: 10px 50px;
+    padding: 10px 53px;
     display: flex;
     justify-content: space-between;
     align-items: center;
     border-radius: 50px 50px 0 0;
     position: fixed;
     bottom: 0;
-    width: 100%;
+    width: 375px;
   }
-  nav img {
-    width: 25px;
-    height: 25px;
+  nav .icon-nav {
+    font-size: 23px;
   }
-
-nav a:hover {
+  nav i a {
+    text-decoration: none;
+    color: #161719;
+  }
+  nav .icon-account {
+    font-size: 26px;
     color: #ff8181;
-}
+  }
+  a:hover{
+    color: #ff8181;
+  }
+  .tooltip {
+    position: relative;
+    display: inline-block;
+  }
+  .tooltip .tooltip-text {
+    visibility: hidden;
+    width: 60px;
+    color: #ff8181;
+    text-align: center;
+    border-radius: 6px;
+    padding-top: 10px;
+    /* position */
+    position: absolute;
+    z-index: 1;
+    top: 100%;
+    left: 50%;
+    margin-left: -30px;
+    font-size: 12px;
+    line-height: 4px;
+  }
+  
+  .tooltip .text-account {
+    visibility: visible;
+  }
+  .tooltip:hover .tooltip-text {
+    visibility: visible;
+  }
+  /* end nav-bar style */
