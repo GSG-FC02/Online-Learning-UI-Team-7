@@ -22,6 +22,11 @@ We also have a page for the courses you registered, where you can view which cou
 In the end we have your personal *Account* page, where you can view your data, control settings and get support.
 
 
+### App sections 
+
+![App section](https://github.com/GSG-FC02/Online-Learning-UI-Team-7/blob/main/assets/Screenshot_20210323_005001.jpg)
+
+
 ### The journey to completion
 * We carefully studied and analyzed the design we were asked to complete.
 * Identify issues and distribute tasks to everyone.
