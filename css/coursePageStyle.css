@@ -30,11 +30,16 @@
 }
 .course-sections button {
   width: 100%;
-  background-color: #fcfcff;
+  background-color: #F1F1FA;
   color: #91919f;
   border: none;
   outline: none;
   padding: 20px;
+}
+
+.course-sections .active , .course-sections button:hover {
+    background-color: white;
+    color: #161719;
 }
 
 .course-content {
@@ -74,9 +79,4 @@ hr {
 
  .more {
     width: 70px;
-}
-
-.Content-details input[type="checkbox"]#inroduction1:checked + span{
-    background-color: #ff8181;
-    color: #ff8181;
 }
