@@ -5,6 +5,8 @@
 }
 body {
   background-color: #6360ff;
+  font-family: "proxima_nova_rgregular", Helvetica, Arial, sans-serif;
+
 }
 header {
   width: 100%;
@@ -33,7 +35,7 @@ header h2 {
   height: 100%;
   background-color: #f1f1fa;
   border-radius: 80px 80px 0 0;
-  padding-bottom: 67%;
+  padding-bottom: 59.5%;
 }
 .title {
   display: flex;
@@ -65,7 +67,7 @@ header h2 {
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
-  font-size: 41px;
+  font-size: 37px;
   margin-top: 15px;
 }
 .test {
@@ -73,7 +75,7 @@ header h2 {
   flex-direction: row;
   justify-content: start;
   align-items: center;
-  font-size: 40px;
+  font-size: 35px;
 }
 .test img {
   width: 40px;
@@ -83,6 +85,7 @@ header h2 {
   display: inline-block;
   margin-bottom: 20px;
   margin-left: 10px;
+  font-size: 35px;
 }
 .Big {
   width: 100%;
