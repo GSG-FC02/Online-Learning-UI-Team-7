@@ -1,0 +1,123 @@
+/* body  */
+body {
+  width: 375px;
+  height: 812px;
+  background-color: #6360ff; /* primary color */
+  margin: auto;
+}
+
+/* header */
+.header {
+  height: 386px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 30px 30px 30px 30px;
+}
+
+/* logo */
+.logo {
+  width: 59px;
+  height: 59px;
+  margin-top: 125px;
+  left: 159px;
+  text-align: center;
+  top: 125px;
+  left: 159px;
+}
+/* title */
+
+.header-title {
+  width: 143px;
+  height: 33px;
+  text-align: center;
+  font-size: 50px;
+  padding-top: 28px;
+  top: 212px;
+  left: 116px;
+}
+
+/* papragrah1 */
+.para {
+  width: 256px;
+  height: 21px;
+  font-size: 16px;
+  text-align: center;
+  padding-top: 66px;
+  line-height: 20.83px;
+  left: 59px;
+  top: 274px;
+}
+
+/* form */
+.form {
+  height: 426px;
+  text-align: center;
+  border-radius: 30px 30px 0 0;
+  background-color: #f1f1fa;
+  top: 386px;
+  left: 376px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  padding-top: 43px;
+}
+
+/* inputs */
+.inputContainer i {
+  position: absolute;
+}
+.inputContainer {
+  width: 100%;
+  margin-bottom: 20px;
+}
+/* #inputContainer {
+  padding-top: 43px;
+} */
+.inputContainer .icon {
+  padding: 15px;
+  min-width: 10px;
+  font-size: 18px;
+  color: blue;
+}
+.inputContainer .input-field {
+  width: 325px;
+  height: 50px;
+  padding: 15px;
+  padding-left: 40px;
+  border-radius: 10px;
+  border: none;
+  outline: none;
+}
+
+/* buttons */
+
+.buttonContainer {
+  margin-top: 23px;
+  margin: auto;
+}
+
+.buttonContainer .button {
+  width: 325px;
+  height: 48px;
+  margin-top: 15px;
+  color: #ffffff;
+  border-radius: 10px;
+  border: none;
+  outline: none;
+}
+.buttonContainer .Bone {
+  background-color: #6360ff;
+}
+.buttonContainer .Bone a {
+  text-decoration: none;
+}
+.buttonContainer .Btwo {
+  background-color: #ff8181;
+}
+
+.para1 {
+  margin-top: 56px;
+  color: #1617196b;
+  font-size: 12px;
+}
