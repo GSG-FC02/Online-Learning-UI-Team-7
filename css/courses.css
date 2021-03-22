@@ -125,8 +125,8 @@ nav {
     text-decoration: none;
     color: #161719;
   }
-  nav .icon-search {
-    font-size: 65px;
+  nav .icon-playList {
+    font-size: 70px;
     color: #ff8181;
   }
   a:hover {
@@ -143,7 +143,6 @@ nav {
     text-align: center;
     border-radius: 6px;
     padding: 5px 0;
-    /* position */
     position: absolute;
     z-index: 1;
     top: 100%;
